@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+html{
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  color: black;
+  background: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bluBoxShadow {
+  box-shadow: -2px 4px 21px 4px #dceaf5;
+}
+
+.karla{
+  font-family: 'Karla', sans-serif;
+}
+.popp{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.gradText{
+    background: -webkit-linear-gradient(#ff4538, #203b81);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
