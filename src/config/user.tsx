@@ -1,6 +1,6 @@
 import { api } from ".";
 
-const USER_URL = `${api.APP_URL}`;
+const USER_URL = `${api.API_URL}`;
 
 
 export const userRegister = `${USER_URL}distributor/register/`

@@ -1,6 +1,7 @@
 {
   "name": "forthose",
   "version": "0.1.0",
+  "homepage": "http://forthose.c1.is/",
   "private": true,
   "scripts": {
     "dev": "next dev",
