@@ -34,15 +34,10 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="w-full md:w-1/2 lg:w-1/4">
+          {/* <div className="w-full md:w-1/2 lg:w-1/4">
             <h3 className="text-xl font-semibold mb-4">Services</h3>
             <ul>
-              <Link href={"/home/services"}>
-                {" "}
-                <li className="mb-2 hover:font-bold text-lg ">
-                  Credit Card
-                </li>{" "}
-              </Link>
+              
               <Link href={"/home/services"}>
                 {" "}
                 <li className="mb-2 hover:font-bold text-lg ">Loans</li>{" "}
@@ -58,7 +53,7 @@ export default function Footer() {
                 <li className="mb-2 hover:font-bold text-lg ">Insurance</li>{" "}
               </Link>
             </ul>
-          </div>
+          </div> */}
 
           <div className="w-full md:w-1/2 lg:w-1/4">
             <h3 className="text-xl font-semibold mb-4 ">Contact</h3>

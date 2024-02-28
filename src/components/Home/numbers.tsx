@@ -22,7 +22,7 @@ const data = [
 
 const Numbers = () => {
   return (
-    <section className=" py-10">
+    <section className=" py-6">
       <div className="container mx-auto">
         <div className="flex flex-wrap">
           {data.map((item, index) => (

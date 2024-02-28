@@ -52,3 +52,27 @@ export const verifyEmail = async (values: any) => {
 
 
 
+export const getAllProducts = async ()=>{
+  try {
+    const response = await fetch(`${api.API_URL}/api/products`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    const responseData = await response.json();
+    console.log(responseData)
+    return responseData;
+  } catch (error) {
+    console.error("Error fetching project details:", error);
+    throw error;
+  }
+}
+
+
+

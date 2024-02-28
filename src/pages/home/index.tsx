@@ -16,6 +16,7 @@ import CreditCard from "./services/creditCard";
 import Learn from "@/components/Home/learn";
 import Appinstall from "@/components/Home/Appinstall";
 import Planing from "@/components/Home/planing";
+import Cards from "@/components/Home/Cards";
 
 const bannersData = [
   {
@@ -62,7 +63,7 @@ export default function Home({ categoriesData }: any) {
       <div className="pt-10">
         <Banner banners={bannersData} />
       </div>
-      <div className="bg-secondry  py-2">
+      <div className="bg-secondry  ">
         <div className="hidden md:block">
           <Numbers />
         </div>
@@ -74,8 +75,9 @@ export default function Home({ categoriesData }: any) {
       <div className="ml-0 lg:ml-20 pb:20 mt-6">
         <Planing />
       </div>
-      <div className=" bg-cover bg-center py-8 mt-8 lg:py-20 px-4">
-        <Service />
+      <div className=" bg-bg-1 bg-center py-8 mt-8 lg:py-20 px-4" style={{backgroundImage:"url('https://img.freepik.com/free-photo/white-paper-texture_1194-2324.jpg?w=1380&t=st=1709042721~exp=1709043321~hmac=78bf6c751f05cc46452fbd6485e4d74ab8f0ab1e21fa6c3c34e36596c1a314e1')", backgroundAttachment:"fixed"}}>
+        {/* <Service /> */}
+        <Cards/>
       </div>
       <CreditCard />
       {/* <div className=" bg-cover">

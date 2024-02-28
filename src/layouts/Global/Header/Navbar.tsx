@@ -63,7 +63,7 @@ export default function Navbar() {
     { title: "Accessories" },
   ];
   return (
-    <nav className={`  w-full justify-start bg-[#2c2a99] fixed z-10 `}>
+    <nav className={`  w-full justify-start bg-[#223670] fixed z-10 `}>
       <div className=" hidden md:flex  w-full   md:flex-row  ">
         <div className="flex  text-md md:text-xl  w-full  px-3 md:px-8  items-center">
           <div className="font-bold w-[15%] text-4xl mr-20 inline p-6">
@@ -88,14 +88,14 @@ export default function Navbar() {
             ))}
           </div>
 
-          <div className="w-[18%] inline text-center bg-gradient-to-r from-purple-600 to-pink-500 rounded-full py-3 text-white">
-            <a href="/home/register">
+          <a href="/home/register" className="w-[18%] inline text-center bg-gradient-to-r cursor-pointer from-purple-600 to-pink-500 rounded-full py-3 text-white">
+            
               LOGIN{" "}
               <span className="absolute ml-4 w-2 h-2">
-                <BsArrowUpRight />
+                {/* <BsArrowUpRight /> */}
               </span>
-            </a>
-          </div>
+            
+          </a>
         </div>
       </div>
       <div className="flex justify-between items-center text-3xl md:hidden">

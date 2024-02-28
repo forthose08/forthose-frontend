@@ -19,6 +19,7 @@ const config: Config = {
         "bg-4": "url('/aboutus/color-bg-3.jpg')",
         "bg-5": "url('/aboutus/colo-bg-4.jpg')",
         "bg-6": "url('/aboutus/contact.jpg')",
+        "bg-texture" : "url('aboutus/texture.jpg')"
       },
       colors: {
         primary: "#ffbb38",
